@@ -4,13 +4,10 @@ import {
 } from "https://esm.sh/glitched-writer@2.0.29";
 
 const phrases = [
-  "Neo,",
-  "sooner or later",
-  "you're going to realize",
-  "just as I did",
-  "that there's a difference",
-  "between knowing the path",
-  "and walking the path"
+  "Hi,",
+  "welcome to",
+  "fastclimb.lol",
+  "stay tuned"
 ];
 
 queueWrite(
