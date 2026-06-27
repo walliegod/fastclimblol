@@ -7,7 +7,7 @@ const phrases = [
   "Hi,",
   "welcome to",
   "fastclimb.lol",
-  "stay tuned"
+  "stay tuned."
 ];
 
 queueWrite(
