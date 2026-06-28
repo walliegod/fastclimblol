@@ -4,24 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>fastclimb</title>
-
-
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100" rel="stylesheet">
-
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,400" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
-
   <link rel="icon" type="image/png" sizes="32x32" href="favicon32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon16x16.png">
 </head>
 <body>
-
   <div class="container">
+
     <div class="text"></div>
+
+
+    <div class="access-gate">
+      <div class="access-label">ENTER ACCESS KEY</div>
+
+      <div class="key-entry">
+ 
+        <svg class="key-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777z"></path>
+          <path d="M15.5 7.5l3 3L22 7l-3-3"></path>
+        </svg>
+
+        <div class="input-wrapper">
+          <input 
+            type="text" 
+            id="passcode-input" 
+            autocomplete="off" 
+            spellcheck="false"
+            maxlength="24"
+            placeholder=""
+          >
+        </div>
+      </div>
+
+      <div class="status" id="status"></div>
+    </div>
   </div>
 
   <script type="module" src="script.js"></script>
-
 </body>
 </html>
